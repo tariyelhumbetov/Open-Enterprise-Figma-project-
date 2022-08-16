@@ -1,0 +1,606 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.container {
+    margin: 0 15px;
+
+}
+
+/*header*/
+
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logodiv {
+    display: flex;
+
+
+
+}
+
+.logo {
+    width: 68px;
+    height: 40px;
+}
+
+h1 {
+    width: 250px;
+    height: 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 8px;
+}
+
+
+nav ul {
+    margin-right: 20px;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-left: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303031
+}
+
+nav :nth-child(4) a {
+    text-decoration: none;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #71A894
+}
+
+/* mainbody */
+
+.mainfirstdiv {
+    box-sizing: border-box;
+    margin-top: 80px;
+    padding-left: 20px;
+    display: flex;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #303031;
+
+}
+
+.mainfirstdiv p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #66645E;
+    margin-top: 24px;
+}
+
+.button1 {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px 24px;
+    margin-top: 50px;
+    background: #71A894;
+    border-radius: 8px;
+    color: #ffffff;
+    border: 0;
+}
+
+.mainseconddiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 188px;
+    margin-bottom: 188px;
+}
+
+.mainseconddiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.mainseconddiv1 p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    width: 60%;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #303031;
+}
+
+.mainseconddiv2 {
+    box-sizing: border-box;
+    display: flex;
+    column-gap: 23px;
+
+}
+
+.card {
+    box-sizing: border-box;
+    padding: 64px 24px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    width: 33%;
+
+}
+
+.cardslogo {
+    width: 88px;
+    height: 88px;
+}
+
+h4 {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #303031;
+    margin-bottom: 10px;
+
+}
+
+.card p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #303031;
+}
+
+.mainthirddiv {
+    display: flex;
+    padding: 0 40px;
+    margin-bottom: 131px;
+}
+
+.justdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 140px;
+
+}
+
+.memberdiv {
+    box-sizing: border-box;
+    width: 40%;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    height: 400px;
+    background: #FFFFFF;
+    padding-left: 40px;
+    padding-top: 32px;
+}
+
+.memberhead {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #303031;
+    margin-bottom: 35px;
+
+}
+
+.member {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.memberpic {
+    margin-right: 16px;
+}
+
+.membername {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #303031;
+}
+
+.shares {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #66645E;
+}
+
+.membersh3 {
+    text-align: start;
+    margin: 24px 0;
+
+}
+
+.mainforthdiv {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.justdiv2 {
+    order: 2;
+    padding-right: 54px;
+    padding-left: 140px;
+    padding-top: 30px;
+
+}
+
+.cardp {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303031;
+    margin-bottom: 24px;
+
+}
+
+.justdiv3,
+.justdiv4 {
+    display: flex;
+
+}
+
+.justdiv3 :first-child {
+    margin-right: 100px;
+}
+
+.justdiv4 :first-child {
+    margin-right: 50px;
+}
+
+.button2 {
+    width: 400px;
+    height: 56px;
+    background: #303031;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 40px;
+
+}
+
+.mainfifthdiv {
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: flex;
+}
+
+.justdiv5 {
+    box-sizing: border-box;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.thirdcard {
+    width: 45%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thirdcard1 {
+    box-sizing: border-box;
+    padding: 28px 50px;
+    margin-bottom: 13px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+h5 {
+    width: 85%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #303031;
+
+}
+
+.thirdcard1 div {
+    width: 15%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #71A894;
+    border-radius: 40px;
+}
+
+.thirdcard1 p {
+    width: 80%;
+    margin-top: 16px;
+}
+
+.thirdcard2 {
+    box-sizing: border-box;
+    width: 57%;
+    background: #F3F0EA;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    padding: 32px 40px;
+
+}
+
+.memberlist {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 24px;
+
+}
+
+.thirdcard3 {
+    margin-left: 12px;
+    box-sizing: border-box;
+    width: 40%;
+    background: #FFFFFF;
+    border: 4px solid #71A894;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+
+}
+
+.thirdcard3 .membersecond {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #303031;
+
+}
+
+.thirdcard3 .cardp2 {
+    align-self: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303031;
+}
+
+.button3 {
+    background: #303031;
+    border-radius: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    width: 100%;
+}
+
+.mainsixthdiv {
+    box-sizing: border-box;
+    margin-top: 184px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mainsixthdiv2 {
+    box-sizing: border-box;
+    display: flex;
+    column-gap: 23px;
+
+}
+
+.lastcard {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.lastcard h5 {
+    margin-bottom: 16px;
+}
+
+.lastcard .cardp {
+    margin-bottom: 24px;
+}
+
+.lastcard :nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lastcard :nth-child(3) :first-child {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 72px;
+    height: 32px;
+    background: #71A894;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+
+}
+
+.additionalclass {
+    margin-top: 30px;
+}
+
+.date {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303031;
+
+}
+
+.button4 {
+    margin: 64px auto;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 24px;
+    width: 150px;
+    height: 64px;
+    background: #303031;
+    border-radius: 8px;
+}
+
+.mainseventhdiv {
+    display: flex;
+    margin-top: 44px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.mainp {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #303031;
+}
+
+.button5 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 24px;
+    width: 219px;
+    height: 64px;
+    background: #71A894;
+    border-radius: 8px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+footer {
+    margin: 126px 20px 40px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #303031;
+}
+footer ul li a{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
